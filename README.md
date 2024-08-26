@@ -18,9 +18,12 @@ Lambda Function 이 목표를 달성하는데 있어서 중요한 역할을 수�
 다음 자동화 시스템은 법정에서 법적 증거로 간주되지 않을 수 있습니다.( 기술적으로 필요한 부분만 발췌하여 사용 할 것을 권장드립니다 ) 
 
 ## Architecture
-아키텍쳐에 대한 자세한 설명이 가미가 되어야 하는 부분. 어느 환경에서 얼마나 어떻게 6하원칙에 따라 그 이유들을 잘 서술되게 할 예정 
+####침해사고 발생시 DFIR 자동화 아키텍쳐 
+
+
 <img width="964" alt="KakaoTalk_20240826_143510493" src="https://github.com/user-attachments/assets/8a4f63db-2329-49b2-8e37-7070bb597e48">
-침해사고 발생시 DFIR 자동화 아키텍쳐 
+
+
 가장 먼저 침해사고 발생시 GuardDuty 에서 사고를 탐지하여 EventBridge를 통해 미리 정해둔 유형의 침해사고에 대해 Step functions workflow가 작동하도록 설계하였습니다. 
 
 
